@@ -26,8 +26,10 @@ Inside **ghci** you can enter commands like:
 ```haskell
 > 3 + 4  -- basic arithmetic
 7
+
 > length "hello"  -- built-in function
 5
+
 > double 41  -- user defined function in the loaded file
 82
 ```
