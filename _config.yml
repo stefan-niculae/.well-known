@@ -2,6 +2,7 @@
 title:        Haskell Labs
 tagline:      Declarative Programming Labs Supplement
 baseurl:      ""
+permalink:    :title
 
 # About/contact
 author:

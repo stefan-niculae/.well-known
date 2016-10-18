@@ -1,16 +1,15 @@
 ---
-layout:  default
+layout:  home
 title:   Haskell Labs
 tagline: Declarative Programming labs supplement
 ---
 # Labs
 <div id="home">
   <ul class="posts">
-    {% for post in site.posts %}
+    {% for post in site.posts reversed %}
       <li>
-        <span>{{ post.date | date_to_string }}</span> &raquo;
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-        <small> - {{ post.tagline }} </small>
+        – {{ post.tagline }} <small>({{ post.date | date: '%-d %b' }})</small>
       </li>
     {% endfor %}
   </ul>
