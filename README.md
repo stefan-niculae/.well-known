@@ -1,6 +1,6 @@
-# haskell-labs
+# Haskell Labs
 
-This repo has three purposes:
+This suppliment has three purposes:
 
 1. help me organize what to write on the whiteboard
 2. help you quickly remember previous labs
@@ -71,7 +71,7 @@ During exams you can bring your own downloaded/printed materials but network acc
 
 Slides and labs: [bit.do/progdecl](http://bit.do/progdecl)
 
-Labs recap: [stefan1niculae.github.io/haskell-labs](http://stefan1niculae.github.io/haskell-labs)
+Labs suppliment (this page): [stefan1niculae.github.io/haskell-labs](http://stefan1niculae.github.io/haskell-labs)
 
 Moodle: [moodle.fmi.unibuc.ro/course/view.php?=id=449](moodle.fmi.unibuc.ro/course/view.php?=id=449)
 
