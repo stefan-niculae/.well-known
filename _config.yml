@@ -2,7 +2,6 @@
 title:        Haskell Labs
 tagline:      Declarative Programming Labs Supplement
 baseurl:      ""
-paginate:     1
 
 # About/contact
 author:
@@ -12,7 +11,7 @@ author:
 
 # Gems
 gems:
-  - jekyll-paginate
+  # - jekyll-paginate
 
 #Others
 markdown: kramdown
