@@ -1,0 +1,74 @@
+# Lab 1
+
+Covers basic function syntax.
+
+## Function signatures
+
+Optional, helps in debugging.
+
+```haskell
+double :: Int -> Int  -- takes an integer and returns an integer
+double x = x + x
+
+square x = x^2  -- x^2 is equivalent to x*x
+```
+
+Multiple arguments:
+
+```haskell
+customAdd :: Int -> Int -> Int  -- takes two integers and returns one
+customAdd x y = x + y + 10
+```
+
+After declaring a signature `func :: Type -> Type`, you must also write the body of the function, or at least `func = undefined`.
+
+
+
+## Calling functions
+
+**Parentheses** are optional (when they cause no ambiguity):
+
+```haskell
+> double(10)
+20
+
+> double 10
+20
+```
+
+Functions of arity (number of arguments) 2 can be used as an infix **operator**:
+
+```haskell
+> div 100 2
+50
+
+> 100 `div` 2  -- function name surrounded by backticks
+50
+```
+
+
+
+## If-else
+
+The following are equivalent:
+
+```haskell
+-- variant 1: if
+fact n = if n == 0 then 1
+         else n * fact(n-1)
+
+-- variant 2: equations
+fact 0 = 1
+fact n = n * fact(n-1)
+
+-- variant 3: cases
+fact n
+  | n == 0      = 1
+  | otherwise   = n * fact(n-1)  -- otherwise is alias for True
+```
+
+Implied:
+
+```haskell
+isDivisible x = x `mod` 3 == 0
+```
