@@ -4,5 +4,18 @@
 
   {% if page.layout == 'post' %}
     <a href="{{ site.baseurl }}" class="btn">Home</a>
+
+    {% if page.previous %}
+      <a href="{{ site.baseurl }}{{ page.previous.url }}" class="btn">&lsaquo; {{ page.previous.title }}</a>
+    {% endif %}
+
+    {% if page.next %}
+      <a href="{{ site.baseurl }}{{ page.next.url }}" class="btn">{{ page.next.title }} &rsaquo;</a>
+    {% endif %}
+  {% endif %}
+
+  {% if page.layout == 'home' %}
+    <a href="http://bit.do/progdecl" class="btn">Worksheets</a>
+    <a href="{{ site.baseurl }}{{ site.posts.first.url }}" class="btn">Latest: {{ site.posts.first.title }}</a>
   {% endif %}
 </section>

@@ -49,7 +49,7 @@ During exams you can bring your own downloaded/printed materials but network acc
 
 ### Links
 
-Slides and labs: [bit.do/progdecl](http://bit.do/progdecl)
+Lectures and worksheets: [bit.do/progdecl](http://bit.do/progdecl)
 
 Labs supplement (this page): [stefan1niculae.github.io/haskell-labs](http://stefan1niculae.github.io/haskell-labs)
 
