@@ -1,144 +1,18 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Haskell-labs by stefan1niculae</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Haskell-labs</h1>
-      <h2 class="project-tagline">Declarative Programming Labs Supplement</h2>
-      <a href="https://github.com/stefan1niculae/haskell-labs" class="btn">View on GitHub</a>
-      <a href="https://github.com/stefan1niculae/haskell-labs/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/stefan1niculae/haskell-labs/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+---
+layout: default
+title: Haskell Labs
+tagline: Declarative Programming labs supplement
+---
 
-    <section class="main-content">
-      <h1>
-<a id="haskell-labs" class="anchor" href="#haskell-labs" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Haskell Labs</h1>
-
-<p>This supplement has three purposes:</p>
-
-<ol>
-<li>help me organize what to write on the whiteboard</li>
-<li>help you quickly remember previous labs</li>
-<li>give you a quick run-down in case you skipped a lab (hopefully not used very often)</li>
-</ol>
-
-<p>Hopefully the third aspect is the least used one.</p>
-
-<p>That being said, I <em>highly</em> encourage you <strong>not to skip</strong> any labs, and <strong>attend</strong> the lectures.</p>
-
-<h2>
-<a id="running" class="anchor" href="#running" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Running</h2>
-
-<p>On <strong>Unix</strong> (Linux -- Ubuntu, etc and macOS) start a terminal and type:</p>
-
-<div class="highlight highlight-source-shell"><pre><span class="pl-c1">cd</span> /path/to/lab  <span class="pl-c"># navigate to the lab's folder</span>
-ghci <span class="pl-k">&lt;</span>lab<span class="pl-k">&gt;</span>.hs</pre></div>
-
-<p>On <strong>Windows</strong> double-click the <code>&lt;lab&gt;.hs</code> file (make sure you are <em>not</em> working inside an archive!).</p>
-
-<p>Inside <strong>ghci</strong> you can enter commands like:</p>
-
-<div class="highlight highlight-source-haskell"><pre>&gt; <span class="pl-c1">3</span> + <span class="pl-c1">4</span>  <span class="pl-c">-- basic arithmetic</span>
-<span class="pl-c1">7</span>
-
-&gt; <span class="pl-c1">length</span> <span class="pl-s"><span class="pl-pds">"</span>hello<span class="pl-pds">"</span></span>  <span class="pl-c">-- built-in function</span>
-<span class="pl-c1">5</span>
-
-&gt; double <span class="pl-c1">41</span>  <span class="pl-c">-- user defined function in the loaded file</span>
-<span class="pl-c1">82</span></pre></div>
-
-<p><code>:l &lt;other_file&gt;.hs</code> loads another file  (short for <code>:load</code>) .</p>
-
-<p><code>:r</code>  reloads the last-loaded file -- used after editing it (short for <code>:reload</code>).</p>
-
-<h3>
-<a id="installing-at-home" class="anchor" href="#installing-at-home" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installing at home</h3>
-
-<p>Follow instructions at <a href="https://www.haskell.org/platform/">haskell.org/platform</a>.</p>
-
-<p>I recommend the <a href="https://atom.io">Atom</a> editor with the <code>haskell-language</code> plugin for syntax highlighting.</p>
-
-<p>For a quick solution <a href="http://rextester.com/l/haskell_online_compiler">rextester.com</a> provides an online haskell compiler.</p>
-
-<h2>
-<a id="administrative" class="anchor" href="#administrative" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Administrative</h2>
-
-<p><strong>Attendance</strong>: 50% required  (7 labs) .</p>
-
-<p><strong>Exams</strong>:</p>
-
-<table>
-<thead>
-<tr>
-<th>date</th>
-<th>medium</th>
-<th>importance</th>
-<th>content</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>wed, 2 nov (week 5)</td>
-<td>computer</td>
-<td>40%</td>
-<td>recursion (lectures 1-4)</td>
-</tr>
-<tr>
-<td>fri, 16 dec (week 11)</td>
-<td>paper</td>
-<td>40%</td>
-<td>data structures (lectures 5-7)</td>
-</tr>
-<tr>
-<td>session</td>
-<td>paper</td>
-<td>20%</td>
-<td>monads (lectures 8 - 12)</td>
-</tr>
-</tbody>
-</table>
-
-<p>During exams you can bring your own downloaded/printed materials but network access is forbidden.</p>
-
-<p><strong>Bonuses</strong> (maximum 10% of grade) for:</p>
-
-<ul>
-<li>attempting next week's exercises at home</li>
-<li>finishing current week's exercises including optional material</li>
-</ul>
-
-<h3>
-<a id="links" class="anchor" href="#links" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Links</h3>
-
-<p>Slides and labs: <a href="http://bit.do/progdecl">bit.do/progdecl</a></p>
-
-<p>Labs supplement (this page): <a href="http://stefan1niculae.github.io/haskell-labs">stefan1niculae.github.io/haskell-labs</a></p>
-
-<p>Moodle: <a href="moodle.fmi.unibuc.ro/course/view.php?=id=449">moodle.fmi.unibuc.ro/course/view.php?=id=449</a></p>
-
-<h3>
-<a id="contact" class="anchor" href="#contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contact</h3>
-
-<p>Stefan Niculae (Teaching Assistant) — <a href="mailto:stefan1niculae@gmail.com">stefan1niculae@gmail.com</a></p>
-
-<p>Traian Serbanuta (Professor) — <a href="mailto:traian.serbanuta@fmi.unibuc.ro">traian.serbanuta@fmi.unibuc.ro</a> </p>
-
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/stefan1niculae/haskell-labs">Haskell-labs</a> is maintained by <a href="https://github.com/stefan1niculae">stefan1niculae</a>.</span>
-
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
-
-    </section>
-
-  
-  </body>
-</html>
+<div id="home">
+  <h1>Entries</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span>{{ post.date | date_to_string }}</span> &raquo;
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        <small> - {{ post.tagline }} </small>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
