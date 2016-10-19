@@ -15,6 +15,9 @@ tagline: Declarative Programming labs supplement
   </ul>
 </div>
 
+# First Exam recap
+Please select preferred intervals [here](http://doodle.com/poll/uhp7s73vmwfvzfzn).
+
 # Purpose
 
 This supplement has three purposes:
