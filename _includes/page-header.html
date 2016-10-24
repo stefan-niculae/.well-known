@@ -3,19 +3,17 @@
   <h2 class="project-tagline">{{ page.tagline }}</h2>
 
   {% if page.layout == 'post' %}
-    <a href="{{ site.baseurl }}" class="btn">Home</a>
-
-    {% if page.previous %}
-      <a href="{{ site.baseurl }}{{ page.previous.url }}" class="btn">&lsaquo; {{ page.previous.title }}</a>
+    {% if page.exercises %}
+      <a href="{{ page.exercises }}" target="_blank" class="btn">Exercises</a>
     {% endif %}
 
-    {% if page.next %}
-      <a href="{{ site.baseurl }}{{ page.next.url }}" class="btn">{{ page.next.title }} &rsaquo;</a>
+    {% if page.optional %}
+      <a href="{{ page.optional }}" target="_blank" class="btn">Optional</a>
     {% endif %}
   {% endif %}
 
   {% if page.layout == 'home' %}
-    <a href="http://bit.do/progdecl" class="btn">Exercises</a>
+    <a href="http://bit.do/progdecl" target="_blank" class="btn">Materials</a>
     <a href="{{ site.baseurl }}{{ site.posts.first.url }}" class="btn">Latest: {{ site.posts.first.title }}</a>
   {% endif %}
 </section>

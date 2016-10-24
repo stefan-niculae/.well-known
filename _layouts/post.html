@@ -1,6 +1,27 @@
 ---
 layout: default
 ---
-<small>{{ page.date | date: '%-d %b' }}</small>
+
+{{ header }}
+
+<nav>
+  <a href="{{ site.baseurl }}/" class="nav-button">Home</a>
+
+  <section class="nav-posts">
+  {% if page.previous %}
+    <a href="{{ site.baseurl }}{{ page.previous.url }}" class="nav-button">&lsaquo; {{ page.previous.title }}</a>
+  {% endif %}
+
+  {% if page.previous and page.next %}
+    &nbsp;·&nbsp;
+  {% endif %}
+
+  {% if page.next %}
+    <a href="{{ site.baseurl }}{{ page.next.url }}" class="nav-button">{{ page.next.title }} &rsaquo;</a>
+  {% endif %}
+</section>
+</nav>
+
+<p class="date">{{ page.date | date: '%-d %b' }}</p>
 
 {{ content }}
