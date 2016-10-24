@@ -4,31 +4,29 @@ title:   Haskell Labs
 tagline: Declarative Programming labs supplement
 ---
 # Labs
-<div id="home">
-  <ul class="posts">
-    {% for post in site.posts reversed %}
-      <li>
-        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-        – {{ post.tagline }}<small>, {{ post.date | date: '%-d %b' }}</small>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+<ul class="posts">
+  {% for post in site.posts reversed %}
+    <li>
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      – {{ post.tagline }}<small>, {{ post.date | date: '%-d %b' }}</small>
+    </li>
+  {% endfor %}
+</ul>
 
 # First Exam recap
 Please select preferred intervals [here](http://doodle.com/poll/uhp7s73vmwfvzfzn).
 
 # Purpose
 
-This supplement has three purposes:
+This supplement aims to be a quick-ref — between a manual and a cheatsheet.
+
+It has three purposes:
 
 1. help me organize what to write on the whiteboard
-2. help you quickly remember previous labs
+2. help you quickly recap previous labs
 3. give you a quick run-down in case you skipped a lab (hopefully not used very often)
 
-Hopefully the third aspect is the least used one.
-
-That being said, I *highly* encourage you **not to skip** any labs, and **attend** the lectures.
+This page alone is not sufficient for the Declarative Programming class. You  should **not to skip** any labs, and **attend** the lectures.
 
 
 # Administrative issues
