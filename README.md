@@ -12,7 +12,7 @@ That being said, I *highly* encourage you **not to skip** any labs, and **attend
 
 
 
-Access online at [stefan1niculae.github.io/haskell-labs](stefan1niculae.github.io/haskell-labs).
+Access online at [stefan1niculae.github.io/haskell-labs](http://stefan1niculae.github.io/haskell-labs).
 
 
 
