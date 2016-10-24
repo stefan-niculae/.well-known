@@ -14,9 +14,10 @@ author:
 gems:
   # - jekyll-paginate
 
-#Others
+# Others
 markdown: kramdown
 highlighter: rouge
 # kramdown:
   # input: GFM
   # syntax_highlighter: rouge
+future: true
