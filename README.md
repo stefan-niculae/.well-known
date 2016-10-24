@@ -29,7 +29,7 @@ Run in root: `bundle install`
 
 ## Run
 
-Run in root: `bundle exec jekyll run`
+Run in root: `bundle exec jekyll serve`
 
 Access locally at [localhost:4000](http://localhost:4000).
 
