@@ -45,8 +45,9 @@ During exams you can bring your own downloaded/printed materials but network acc
 
 **Bonuses** (max 10%) for:
 
-* attempting next week's exercises at home
-* finishing current week's exercises including optional material
+* current week's optional exercises
+* next week's exercises in advance
+
 
 ### Links
 
