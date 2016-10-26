@@ -20,4 +20,4 @@ highlighter: rouge
 # kramdown:
   # input: GFM
   # syntax_highlighter: rouge
-future: true
+# future: true
