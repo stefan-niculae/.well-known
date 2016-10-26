@@ -13,7 +13,7 @@ tagline: Declarative Programming labs supplement
   {% endfor %}
 </ul>
 
-<h1 class="important">Recap lab for first test</h1>
+<h1 class="highlighted">Recap lab for first test</h1>
 Friday 4 nov, 14:00.
 
 # Purpose

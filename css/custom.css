@@ -16,6 +16,6 @@ nav {
   top: 0;
 }
 
-.important {
-  color: #800000;
+.highlighted {
+  color: #CF0000 !important;
 }
