@@ -15,3 +15,7 @@ nav {
   right: 0;
   top: 0;
 }
+
+.important {
+  color: #800000;
+}
