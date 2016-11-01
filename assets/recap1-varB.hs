@@ -25,7 +25,6 @@ evenVowels :: [String] -> Int
 evenVowels = undefined
 
 
-
 -- 4
 -- Lista factorilor primi unui numar
 -- primeFactors 315 = [3, 3, 5, 7]

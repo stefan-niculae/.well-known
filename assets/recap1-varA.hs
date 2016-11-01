@@ -1,22 +1,18 @@
 module VarA where
 
--- 1a
+-- 1
 -- Lista divizorilor unui numar
 -- Folosind recursivitate
 -- divsorsR 6 = [1, 2, 3 6]
 divsors :: Int -> [Int]
 divsors = undefined
 
+
 -- 2
 -- Lista divizorilor impari ai unui numar
 -- Folosind list comprehension
 oddDivisors :: Int -> [Int]
 oddDivisors = undefined
-
--- 2 Bonus
--- Folosind higher order functions
-oddDivisors' :: Int -> [Int]
-oddDivisors' = undefined
 
 
 -- 3
@@ -34,7 +30,3 @@ isPerfect = undefined
 -- perfDiffs [1, 5, 8, 20] = False  pt ca [5-1, 8-5, 20-8] ~> [4, 3, 12] ~> 19
 perfDiffs :: [Int] -> Bool
 perfDiffs = undefined
-
--- without Control.Arrow
-perfDiffs' :: [Int] -> Bool
-perfDiffs' = undefined

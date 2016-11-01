@@ -1,7 +1,7 @@
 module VarA where
 import Control.Arrow
 
--- 1a
+-- 1
 -- Lista divizorilor unui numar
 -- Folosind recursivitate
 -- divsorsR 6 = [1, 2, 3 6]
