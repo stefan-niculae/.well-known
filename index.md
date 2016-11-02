@@ -14,8 +14,24 @@ tagline: Declarative Programming labs supplement
   {% endfor %}
 </ul>
 
-<h1 class="highlighted">Recap lab for first test</h1>
-Friday 4 nov, 14:00.
+<h1 class="highlighted">Recap lab</h1>
+Friday 4 nov, 14⁰⁰.
+
+<h1 class="highlighted">First test</h1>
+Friday 11 nov.
+
+There will be **3** intervals of maximum **10** students:
+
+ * 14⁰⁰ - 15⁰⁰
+ * 15⁰⁰ - 16⁰⁰
+ * 16⁰⁰ - 17⁰⁰
+
+<span class="highlighted">Select your interval </span> [here](https://docs.google.com/spreadsheets/d/1p4i3aH0_cQg0CJBwrddW9J1stzuEAbDRvqM1Dt2jnZQ/edit#gid=1135138555)
+
+You can bring your own **downloaded**/printed materials. **Network** access is forbidden.
+
+Check [recap lab](/recap1) for format details and solved examples.
+
 
 # Purpose
 
