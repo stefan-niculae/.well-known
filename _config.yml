@@ -21,4 +21,4 @@ highlighter: rouge
   # input: GFM
   # syntax_highlighter: rouge
 
-future: false
+future: true
