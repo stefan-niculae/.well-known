@@ -7,8 +7,9 @@ tagline: Declarative Programming labs supplement
 <ul class="posts">
   {% for post in site.posts reversed %}
     <li>
+    <small class="post-date">{{ post.date | date: '%-d %b' }}</small>
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-      – {{ post.tagline }}<small>, {{ post.date | date: '%-d %b' }}</small>
+      – {{ post.tagline }}
     </li>
   {% endfor %}
 </ul>
