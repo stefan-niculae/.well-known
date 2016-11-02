@@ -21,12 +21,6 @@ nav {
 }
 
 
-ul.posts {
-  list-style-type: none;
-  padding-left: 1em;
-}
 ul.posts .post-date {
-  float: left;
-  left: 1em;
-  min-width: 4em;
+  float: right;
 }
