@@ -30,7 +30,7 @@ oddDivisors' n = filter (\cand -> n `mod` cand == 0 && odd cand) [1..n]
 -- isPerfect 6 = True    pt ca 6  == 1 + 2 + 3
 -- isPerfect 10 = False  pt ca 10 \= 1 + 2 + 5
 isPerfect :: Int -> Bool
-isPerfect n = n == sum (filter(\cand -> n `mod` cand ==0) [1..n-1])
+isPerfect n = n == sum (filter (\cand -> n `mod` cand == 0) [1..n-1])
 
 
 -- 4
