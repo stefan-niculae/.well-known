@@ -10,6 +10,15 @@
     {% if page.optional %}
       <a href="{{ page.optional }}" target="_blank" class="btn">Optional</a>
     {% endif %}
+
+    {% if page.buttonNames %}
+      {% for name in page.buttonNames %}
+        {% assign index = forloop.index|minus: 1 %}
+        {% assign link = page.buttonLinks[index] %}
+          <a href="{{ link }}" target="_blank" class="btn">{{ name }}</a>      
+        {% endfor %}
+    {% endif %}
+
   {% endif %}
 
   {% if page.layout == 'home' %}
