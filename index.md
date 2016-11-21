@@ -47,7 +47,7 @@ During exams you can bring your own downloaded/printed materials but network acc
 * next week's exercises in advance
 
 
-### Links
+## Links
 
 Lectures and exercises: [bit.do/progdecl](http://bit.do/progdecl)
 
