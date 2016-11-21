@@ -14,13 +14,9 @@ tagline: Declarative Programming labs supplement
   {% endfor %}
 </ul>
 
-<h1 class="highlighted">First test grades</h1>
-See [here]({{site.baseurl}}/test1#note).
-
-
 # Purpose
 
-This supplement aims to be a quick-ref — between a manual and a cheatsheet.
+This supplement aims to be a quick-ref — between a lesson and a cheatsheet.
 
 It has three purposes:
 
@@ -28,7 +24,7 @@ It has three purposes:
 2. help you quickly recap previous labs
 3. give you a quick run-down in case you skipped a lab (hopefully not used very often)
 
-This page alone is not sufficient for the Declarative Programming class. You  should **not to skip** any labs, and **attend** the lectures.
+This page alone is not sufficient for the Declarative Programming class. It is not a substitute for **solving** the given exercises or for **attending** the lectures.
 
 
 # Administrative issues
