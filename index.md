@@ -33,11 +33,11 @@ This page alone is not sufficient for the Declarative Programming class. It is n
 
 **Exams**:
 
-| date                  | medium   | importance | content                        |
-| --------------------- | -------- | ---------- | ------------------------------ |
-| fri, 11 nov (week 6)  | computer | 40%        | recursion (lectures 1-4)       |
-| fri, 16 dec (week 11) | paper    | 40%        | data structures (lectures 5-7) |
-| session               | paper    | 20%        | monads (lectures 8 - 12)       |
+| date                  | medium   | importance | content                   |
+| --------------------- | -------- | ---------- | ------------------------- |
+| fri, 11 nov (week 6)  | computer | 40%        | recursion (lectures 1-4)  |
+| fri, 16 dec (week 11) | paper    | 40%        | data types (lectures 5-7) |
+| 10 feb (session)      | paper    | 20%        | monads (lectures 8-12)    |
 
 During exams you can bring your own downloaded/printed materials but network access is forbidden.
 
