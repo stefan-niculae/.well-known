@@ -1,7 +1,7 @@
 # Setup
 title:        Haskell Labs
 tagline:      Declarative Programming Labs Supplement
-baseurl:      "haskell-labs"
+baseurl:      ""
 permalink:    :title
 
 # About/contact
